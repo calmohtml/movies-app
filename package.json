@@ -1,15 +1,18 @@
 {
   "name": "movies-api",
   "version": "0.0.0",
+  "description": "A movies app, using the TMDb and JavaScript.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/runtime": "^7.14.6",
+    "gh-pages": "^3.2.3",
     "sass": "^1.35.2",
     "vite": "^2.4.2"
   }
